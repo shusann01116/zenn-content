@@ -7,13 +7,18 @@
     "new": "zenn new:article",
     "preview": "zenn preview",
     "list": "zenn list:articles",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:check": "prettier --check .",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prettier": "^3.3.2",
     "zenn-cli": "^0.1.154"
+  },
+  "devDependencies": {
+    "husky": "^9.1.4",
+    "prettier": "^3.3.3"
   }
 }
