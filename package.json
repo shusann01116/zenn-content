@@ -8,6 +8,7 @@
     "preview": "zenn preview",
     "list": "zenn list:articles",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:write": "prettier --write .",
     "prettier:check": "prettier --check .",
     "prepare": "husky"
   },
