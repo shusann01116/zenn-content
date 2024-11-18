@@ -19,7 +19,7 @@
     "zenn-cli": "^0.1.158"
   },
   "devDependencies": {
-    "husky": "^9.1.6",
+    "husky": "^9.1.7",
     "prettier": "^3.3.3"
   }
 }
